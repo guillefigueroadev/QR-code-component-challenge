@@ -1,0 +1,41 @@
+.qrCard {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  max-width: 320px;
+}
+
+.qrCard__section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.qrCard__section-figure {
+  margin: 16px 40px;
+}
+
+.qrCard__section:nth-child(2) {
+  padding: 0 31px 31px 31px;
+}
+
+.qrCard__section-image {
+  border-radius: 11px;
+}
+
+.qrCard__section-title,
+.qrCard__section-description {
+  text-align: center;
+}
+
+.qrCard__section-title {
+  color: var(--color-dark-blue);
+  font-family: 'OutfitBold';
+  font-size: 22px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.qrCard__section-description {
+  color: var(--color-grayish-blue);
+  font-size: 15px;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: OutfitRegular;
+  src: url('../assets/fonts/Outfit-Regular.ttf');
+}
+
+@font-face {
+  font-family: OutfitBold;
+  src: url('../assets/fonts/Outfit-Bold.ttf');
+}
+
+html {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+
+  background-color: var(--color-light-gray);
+  font-family: OutfitRegular;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
